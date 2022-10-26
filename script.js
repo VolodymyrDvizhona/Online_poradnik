@@ -6,7 +6,7 @@ let categories = [
     categoryName: "biznes",
     questions: [
       "zarządzanie biznesem",
-      "markoekonomia biznesu",
+      "makroekonomia biznesu",
       "jak utworzyć biznes"
     ]
   },
@@ -67,7 +67,7 @@ submitButton.addEventListener('click', function (event){
       +'<h3><a href="https://www.swiatksiazki.pl/git-i-github-kontrola-wersji-zarzadzanie-projektami-i-zasady-pracy-zespolowej-6856202-ksiazka.html">Nie wiem jak kontrolować wszystkie chwile biznesu, i chcę doznać się</a></h3>'
       +'<h3><a href="https://www.spiderscribe.net/">Mam płan na biznes i chcę doznać się który jest najlepszyj sposób do schematyky płanu(pomoże w budowie planu)</a></h3>'
     )
-  } else if( answer.value === 'markoekonomia biznesu'){
+  } else if( answer.value === 'makroekonomia biznesu'){
     document.querySelector('.results').insertAdjacentHTML('beforeend',
       '<h3><a href="https://www.swiatksiazki.pl/ekonomia-dla-kazdego-6621726-ksiazka.html">Chcę doznać się co jest makroekonimia, jaka różnica  między makro i mikro</a></h3>'
       +'<h3><a href="https://www.swiatksiazki.pl/wspolpraca-zawodowa-w-srodowisku-wielokulturowym-6636740-ksiazka.html">Mam problemy z realizacją spółpracy z innymy krajami</a></h3>'

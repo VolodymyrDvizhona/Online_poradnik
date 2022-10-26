@@ -7,6 +7,13 @@
     <link rel="shortcut icon" href="knuga44.png" type="image/png">
 </head>
 <body>
+    <script>
+        if (top.location.search=="") {
+  pass = prompt('Wprowadz hasło');
+  if (pass=='student') 
+  { alert('Zapraszam') } else { alert('Jeszcze raz!'), top.location.href="errorpas.htm" }
+  };
+    </script>
 <div class="wrapper">
     <div class="categories flex">
         <p data-category="biznes">biznes</p>

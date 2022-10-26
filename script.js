@@ -1,10 +1,5 @@
-/*
-if (top.location.search=="") {
-  pass = prompt('Wprowadz hasło');
-  if (pass=='student') 
-  { alert('Zapraszam') } else { alert('Jeszcze raz!'), top.location.href="errorpas.htm" }
-  };
-  */
+
+  
   
 let categories = [
   {
